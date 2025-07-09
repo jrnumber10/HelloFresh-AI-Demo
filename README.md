@@ -52,21 +52,45 @@ Your key will be **loaded automatically** when you run the notebook.
 
 ---
 
-## 💻 How to Run
+💻 How to Run
+You can run this project either by using Jupyter Notebook directly or setting up a Python virtual environment for isolation.
 
-1. **Clone or Download** this repo.
-2. Install dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-3. Add your `.env` file with API key (see above).
-4. Launch Jupyter:
-    ```sh
-    jupyter notebook
-    ```
-5. Open `HelloFresh_GenAi_demo_final.ipynb` and follow the prompts.
+🅰️ If You Already Have Jupyter Installed:
+bash
+Copy
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
+# Create a .env file in this folder
+# Add your OpenAI key: OPENAI_API_KEY=your-key-here
+jupyter notebook
+Then open HelloFresh_GenAi_demo_final.ipynb and follow the prompts.
 
----
+🅱️ Set Up with Virtual Environment (Recommended):
+For a clean install without interfering with global packages:
+
+bash
+Copy
+# 1. Clone the repo
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+# 2. Create a virtual environment
+python -m venv venv
+
+# 3. Activate it
+venv\Scripts\activate         # On Windows
+# OR
+source venv/bin/activate     # On macOS/Linux
+
+# 4. Install dependencies
+pip install -r requirements.txt
+
+# 5. Add your OpenAI key in a .env file
+echo OPENAI_API_KEY=your-key-here > .env
+
+# 6. Launch Jupyter
+jupyter notebook
 
 ## 📚 Project Files
 
