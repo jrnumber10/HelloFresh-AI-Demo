@@ -1,0 +1,5 @@
+fuzzywuzzy
+ipywidgets
+gradio
+python-dotenv
+openai
