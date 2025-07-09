@@ -79,7 +79,7 @@ echo OPENAI_API_KEY=your-key-here > .env
 jupyter notebook
 Open HelloFresh_GenAi_demo_final.ipynb and follow the prompts.
 
-🅱️ Recommended: Virtual Environment Setup
+### 🅱️ Recommended: Virtual Environment Setup
 For clean dependency isolation:
 
 bash
@@ -104,17 +104,17 @@ echo OPENAI_API_KEY=your-key-here > .env
 jupyter notebook
 💡 Use your system terminal (PowerShell, Terminal, bash, etc.) to run these commands.
 
-📚 Project Files
+# 📚 Project Files
 HelloFresh_GenAi_demo_final.ipynb — Main interactive notebook
 
 requirements.txt — All required packages
 
 README.md — This file!
 
-🙏 Credits
+# 🙏 Credits
 HelloFresh — Recipes & images (educational/demo use only)
 
 OpenAI — GPT-powered chat assistant
 
-🛡️ License
+# 🛡️ License
 MIT License
