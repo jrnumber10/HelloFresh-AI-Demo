@@ -68,8 +68,8 @@ You can run this project using Jupyter Notebook or a virtual environment.
 ### 🅰️ If You Already Have Jupyter Installed
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jrnumber10/HelloFresh-AI-Demo.git
+cd HelloFresh-AI-Demo
 pip install -r requirements.txt
 
 # Add your API key
@@ -89,8 +89,8 @@ For clean dependency isolation:
 
 ```bash
 # Clone repo
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jrnumber10/HelloFresh-AI-Demo.git
+cd HelloFresh-AI-Demo
 
 # Create & activate virtual environment
 python -m venv venv
